@@ -114,21 +114,20 @@
      max-width: 600px;
 }
 	  
-   .text-box {
-      display: flex;  
-      flex: 1 1 300px;
-      font-family:  'DM Serif Display', serif;
-      background: var(--verde);
-      color: white;
-      padding: 30px;
-      border-radius: 6px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 12px;
-      text-align: left;
-	  line-height: 1.2;
-    }
+  .text-box {
+   display: flex;
+   gap: 40px;
+
+  background: var(--verde);
+  color: white;
+
+   padding: 30px;
+   border-radius: 6px;
+
+   align-items: center;
+
+   font-family: 'DM Serif Display', serif;
+}
 	  
     .contact-box h2 {
       font-size: 22px;
@@ -154,6 +153,16 @@
       text-decoration: none;
       font-weight: 500;
     }
+
+	  .sobre-conteudo {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  line-height: 1.5;
+}
 
     /* TEXTO INFERIOR */
     .about {
@@ -298,19 +307,32 @@
 
      
       <!-- SOBRE MIM -->
-      <div class="text-box">
-		<img src="foto_victor_5.jpg" alt="Foto do psicólogo" class="foto-perfil">
-        <p class="telefone">Sobre mim</p>
-		<p class="conteudo"> 
-        <p>Sou psicólogo (CRP 08/47362) em constante formação com prática orientada pela psicanálise, meu percurso é marcado pelo encanto a teoria, estudo e arte. Participo de grupos de estudos, simpósios e eventos que discutem temas que atravessam e se tornam pertinentes a minha prática, além de sempre estar com um livro em mãos. Também sou pós-graduando em psicologia clínica e psicanálise na PUC-PR. Possuo experiencia clínica e atuo na área da educação com o público adolescente.</p>
-		<a href="https://wa.me/5541997345450?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o." class="btn" target="_blank">
-        Agende seu horário
-		</a>
-	  </div>	
+     <div class="text-box">
+
+  <img src="foto_victor_5.jpg" 
+       alt="Foto do psicólogo" 
+       class="foto-perfil">
+
+  <div class="sobre-conteudo">
+
+    <h2>Sobre mim</h2>
+
+    <p>
+      Sou psicólogo (CRP 08/47362) em constante formação com prática orientada pela psicanálise...
+    </p>
+
+    <a href="https://wa.me/5541997345450?text=Olá"
+       class="btn"
+       target="_blank">
+      Agende seu horário
+    </a>
+
+  </div>
+
+</div>	
 		<br> 
 	
 	  </div>
-  </div>
 <br>
 		
 <!-- FOOTER -->	
